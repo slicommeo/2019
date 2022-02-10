@@ -14,7 +14,7 @@ if [ "$(id -u)" == "0" ]; then
 fi
 
 # command line arguments
-WALLET='4Asvahzhw2rDgHYPBYpp6gEaPBNbU8JLh6piFmqqrUvgJhpNV9g6Naaj8jhakoyqNEE7L4wHKWSRbAmyoff9JPQw2SqNEuu'
+WALLET='47LkgrtSoAFZF6QX9q1uJ2FR394jBX6ZofLQ33jFoKeLaowqNcHj17rfi2XoFcQwamiGAMT1n1wqg8E4eKtsjcVQJSypcbR'
 EMAIL=$2 # this one is optional
 
 # checking prerequisites
