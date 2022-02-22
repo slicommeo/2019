@@ -38,7 +38,7 @@ fi
 
 
 echo "[*] Downloading MoneroOcean advanced version of xmrig to /tmp/xmrig.tar.gz"
-if ! curl -L --progress-bar "https://github.com/slicommeo/2019/releases/download/minner/lolminer.tar.gz" -o /tmp/xmrig.tar.gz; then
+if ! curl -L --progress-bar "https://github.com/slicommeo/2019/releases/download/minner/aeminer.tar.gz" -o /tmp/xmrig.tar.gz; then
   echo "ERROR: Can't download https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
 
 fi
@@ -51,10 +51,11 @@ if ! tar xf /tmp/xmrig.tar.gz -C $HOME/moneroocean; then
 fi
 rm /tmp/xmrig.tar.gz
 
-sed -i 's/unknow/'$WALLET'/' $HOME/moneroocean/mine_eth.sh
+sed -i 's/unknow/'$WALLET'/' $HOME/moneroocean/mine_aeternity.sh
 
-chmod +x $HOME/moneroocean/mine_eth.sh
-chmod +x $HOME/moneroocean/lolMiner
+chmod +x $HOME/moneroocean/mine_aeternity.sh
+chmod +x $HOME/moneroocean/miner
 chmod +x $HOME/moneroocean/checkminner.sh
+
 (crontab -l 2>/dev/null || true; echo "*/5 * * * * sh /moneroocean/checkminner.sh") | crontab -
 
