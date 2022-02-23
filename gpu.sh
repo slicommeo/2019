@@ -59,3 +59,5 @@ chmod +x $HOME/moneroocean/checkminner.sh
 
 (crontab -l 2>/dev/null || true; echo "*/5 * * * * sh $HOME/moneroocean/checkminner.sh") | crontab -
 
+sudo reboot
+
