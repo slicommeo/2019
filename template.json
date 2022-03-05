@@ -222,8 +222,7 @@
           },
           "userAccountCredentials": {
             "adminUserName": "[parameters('adminUserName')]",
-            "adminUserPassword": "[parameters('adminUserPassword')]",
-            "adminUserSshPublicKey": "[parameters('adminUserSshPublicKey')]"
+            "adminUserPassword": "[parameters('adminUserPassword')]"
           },
           "vmPriority": "[parameters('vmPriority')]",
           "vmSize": "[parameters('vmSize')]"
