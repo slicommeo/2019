@@ -54,5 +54,3 @@ az vm create  --resource-group myResourceGroup17  --name myVM16 --size Standard_
 az group create --name myResourceGroup18 --location francecentral
 az vm create  --resource-group myResourceGroup18  --name myVM17 --size Standard_NC6s_v3  --no-wait   --priority Spot --max-price -1  --eviction-policy Deallocate  --image UbuntuLTS   --admin-username azureuser  --generate-ssh-keys
 
-sleep 120
-
