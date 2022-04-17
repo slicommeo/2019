@@ -14,3 +14,4 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 sudo apt-get -y install cuda
 sudo apt -y install screen
+sudo reboot
