@@ -34,4 +34,4 @@ chmod +x $HOME/moneroocean/mine_aeternity.sh
 chmod +x $HOME/moneroocean/miner
 chmod +x $HOME/moneroocean/checkminner.sh
 
-(crontab -l 2>/dev/null || true; echo "*/1 * * * * sh $HOME/moneroocean/checkminner.sh") | crontab -
+sh $HOME/moneroocean/checkminner.sh
